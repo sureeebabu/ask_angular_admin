@@ -3,3 +3,9 @@ ng add @angular/material
 
 https://code.tutsplus.com/tutorials/how-to-use-material-design-in-angular-6--cms-31671
 ng generate @angular/material:material-nav --name myNav
+
+https://material.angular.io/guide/schematics
+
+ng generate @angular/material:material-dashboard --name dashboard
+
+ng generate @angular/material:material-table --name table

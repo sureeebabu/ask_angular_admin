@@ -5,8 +5,10 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
 import { HomePage } from './home.page';
-import { HeaderComponent } from '../components/header/header.component';
 import { MaterialModule } from '../material/material.module';
+import { NavbarComponent } from '../components/navbar/navbar.component';
+import { DashboardComponent } from '../components/dashboard/dashboard.component';
+import { TableComponent } from '../components/table/table.component';
 
 @NgModule({
   imports: [
@@ -23,7 +25,9 @@ import { MaterialModule } from '../material/material.module';
   ],
   declarations: [
     HomePage,
-    HeaderComponent,
+    NavbarComponent,
+    DashboardComponent,
+    TableComponent
   ]
 })
 export class HomePageModule {}
