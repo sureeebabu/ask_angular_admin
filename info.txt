@@ -1,0 +1,5 @@
+ng add @angular/material
+// ng add @angular/cdk
+
+https://code.tutsplus.com/tutorials/how-to-use-material-design-in-angular-6--cms-31671
+ng generate @angular/material:material-nav --name myNav
